@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="qedge.feb22.SecondTestNGClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- qedge.feb22.SecondTestNGClass -->
+      <class name="qedge.feb22.FirstTestNGClass">
+        <methods>
+          <include name="branches"/>
+          <include name="setUp"/>
+          <include name="roles"/>
+        </methods>
+      </class> <!-- qedge.feb22.FirstTestNGClass -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
